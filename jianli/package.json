@@ -4,6 +4,7 @@
   "description": "基于VUE移动端的个人简历",
   "author": "zhangjianghao",
   "private": true,
+  "homepage":"https://say-youth.github.io/jianli-betterScroll-/",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
