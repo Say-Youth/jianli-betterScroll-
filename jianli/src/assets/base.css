@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.page {
+  height: 667px;
+  background: url(./time2.png) no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+/* animate原因必须加这个 */
+  top:-20px;
+}
+
+.page .top {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  height: 34px;
+  width: 100%;
+}
+
+.page .top .topIcon {
+  height: 100%;
+  z-index: 5;
+  background: url(./topImg.png) no-repeat;
+}
+
+.page .mainbody {
+  z-index: 10;
+  width: 320px;
+  height: 500px;
+  position: absolute;
+  top: 70px;
+  right: 27.5px;
+  background: url(./main1.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.page .mainbody .blackWord {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
+
+.page .mainbody .purpleWord {
+  position: absolute;
+  top: 42px;
+  right: 15px;
+  z-index: 11;
+}
+
+.page .mainbody .white {
+  position: absolute;
+  top: 40px;
+  right: 8px;
+  z-index: 1;
+}
+
+.page .mainbody .line {
+  position: absolute;
+  top: 55px;
+  left: 32px;
+  width: 255px;
+  height: 25px;
+  background: url(../assets/huaxian.png) no-repeat;
+}
+
+.page .botton {
+  position: absolute;
+  z-index: 5;
+  bottom: 50px;
+  right: 50%;
+  width: 20px;
+  height: 20px;
+  background: url(./shanghua.png) no-repeat;
+  background-size: 100% 100%;
+}
